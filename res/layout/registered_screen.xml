@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+  <LinearLayout 
+      android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:gravity="center_horizontal"
+      android:background="#99CCFF"
+
+      >
+
+      <TextView
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_marginTop="10dip"
+          android:textColor="#FFFFFF"
+          android:text="Войдите через portal.khstu.ru"
+          android:textSize="19sp"
+          android:textStyle="bold"
+          />
+
+
+      <EditText
+            android:id="@+id/editText_name"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:hint="Введите логин (цифровой формат)"
+           />
+
+        <EditText
+            android:id="@+id/editText_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:inputType="textPersonName"
+            android:hint="Введите пароль"
+             />
+
+
+      <Button
+          android:id="@+id/button_login"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#FFFFFF"
+          android:layout_marginTop="4dip"
+
+          android:text="Вход" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="3dp"
+          android:orientation="vertical"
+          android:layout_marginTop="4dip"
+          android:gravity="center_horizontal"
+          android:background="#3c3f41"
+
+          />
+
+      <TextView
+            android:id="@+id/reg_change_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginTop="10dip"
+          android:textColor="#FFFFFF"
+            android:text="Либо зарегестрируйтесь сейчас "
+            android:textSize="19sp"
+            android:textStyle="bold"
+             />
+
+        <Button
+            android:id="@+id/button_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:textColor="#FFFFFF"
+            android:layout_marginTop="4dip"
+            android:text="Регистрация" />
+
+        
+
+    
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+  >
+<LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+
+android:background="#99CCFF"
+
+        >
+      <ScrollView 
+           android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+            >    
+    
+<LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="#99CCFF"
+
+        > 
+      
+   <TextView
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Служба 'Разбудить к паре'"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        
+        />
+   
+     <TextView
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/text_alarm"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        
+        />
+     
+       <TextView
+           android:id="@+id/spisok_par_alarm"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Список пар\n1\n2\n3\n4"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        
+        />
+       
+         <TextView
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Вы согласны просыпаться за "
+       android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        
+        />
+<LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:gravity="center"
+        > 
+       <NumberPicker
+     android:id="@+id/nph"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="5dp"
+     android:background="#d2d2d2"
+     
+     
+/>
+       
+         <TextView
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text=":"
+       android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        
+        />
+       
+              <NumberPicker
+     android:id="@+id/npm"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+     android:background="#d2d2d2"
+     
+   
+/>
+    </LinearLayout>   
+    
+ <TextView
+   android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="до первой пары?"
+      android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        
+        />
+
+  <Button
+      android:id="@+id/alarm_acepted"
+      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="ок"
+ android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        
+        />
+  </LinearLayout>
+ </ScrollView>
+   </LinearLayout>
+   
+
+
+</RelativeLayout>

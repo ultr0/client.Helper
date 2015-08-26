@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+  <LinearLayout 
+      android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      
+      android:background="#99CCFF"
+      >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+       android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     
+       >
+
+    
+  <LinearLayout 
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center"
+      >
+
+        <EditText
+            android:id="@+id/editText_name"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:hint="Введите ваше имя"
+           />
+
+        <EditText
+            android:id="@+id/editText_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:inputType="textPersonName"
+            android:hint="Введите вашу фамилию"
+             />
+
+
+      <EditText
+          android:id="@+id/editText_otch"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:ems="10"
+          android:textColor="#FFFFFF"
+          android:textColorHint="#FFFFFF"
+          android:inputType="textPersonName"
+          android:hint="Введите ваше отчество"
+          />
+
+        <TextView
+            android:id="@+id/reg_change_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginTop="4dip"
+          android:textColor="#FFFFFF"
+            android:text="Выберите группу: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+             />
+
+        <Button
+            android:id="@+id/button_user_fakk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:textColor="#FFFFFF"
+            android:layout_marginTop="4dip"
+            android:text="Группа" />
+
+        
+        <TextView
+            android:id="@+id/rec_change_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_marginTop="4dip"
+            android:textColor="#FFFFFF"
+            android:text="Выберите пол: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+             />
+        
+        <RadioGroup
+        android:id="@+id/radioGroup_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        android:layout_marginTop="4dip" >
+
+        <RadioButton
+            android:id="@+id/radio0_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Муж" />
+
+        <RadioButton
+            android:id="@+id/radio_woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textColor="#FFFFFF"
+            android:text="Жен" />
+
+       
+    </RadioGroup>
+        
+           <TextView
+            android:id="@+id/rec_change_date_burth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginTop="4dip"
+         android:textColor="#FFFFFF"
+            android:text="Выберите дату рождения: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+             />
+
+        <Button
+            android:id="@+id/button_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+               android:textColor="#FFFFFF"
+            android:layout_marginTop="4dip"
+            android:text="Дата" />
+        
+          <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:gravity="center"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginTop="4dip"
+            android:inputType="textWebEmailAddress"
+            android:hint="Введите ваш email (необязательно)"
+             />
+          
+          
+           <TextView
+            android:id="@+id/reg_change_ava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginTop="4dip"
+         android:textColor="#FFFFFF"
+            android:text="Выберите фотографию профиля "
+            android:textSize="17sp"
+            android:textStyle="bold"
+        />
+          
+          <ImageView
+              android:id="@+id/check_ava"
+          android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="4dip"
+             android:src="@drawable/ic_account_box_px"
+            />
+     <Button
+            android:id="@+id/button1_acepted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:textColor="#FFFFFF"
+            android:layout_marginTop="4dip"
+      
+  
+            android:text="Подтверждаю" />
+        
+          
+   </LinearLayout>
+
+    </ScrollView>
+    
+</LinearLayout>
+</LinearLayout>

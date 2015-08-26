@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+  >
+<LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+        > 
+  
+  
+ <LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_weight="1"
+android:background="#092E47"
+        > 
+  <ImageView 
+      android:layout_width="190dp"
+        android:layout_height="240dp"
+      android:background="@drawable/first_logo"
+      
+      />
+   </LinearLayout>
+   
+  <LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_weight="2"
+android:background="#092E47"
+        > 
+        <RadioGroup 
+            android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             
+            android:layout_weight="0"
+            >
+        
+            <RadioButton 
+                android:id="@+id/r_prepod_check"
+                android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+                android:text="Абитуриент"
+                android:layout_gravity="center"
+                
+                />
+                 <RelativeLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        > 
+                                
+                  <RadioButton 
+                android:id="@+id/r_prepod_check"
+                android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+                android:text="Преподователь"
+                 android:layout_marginLeft="8dp"
+                android:enabled="false"
+                />       
+                     
+                     
+             <RadioButton 
+                android:id="@+id/r_student_check"
+                android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+                android:text="Студент"
+                android:layout_marginRight="8dp"
+                  android:layout_alignParentRight="true"
+                android:checked="true"
+                />
+         
+             
+             </RelativeLayout>
+        </RadioGroup>
+          <LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:gravity="center"
+android:layout_weight="0"
+
+        > 
+  <Button 
+       android:layout_width="120dp"
+        android:layout_height="wrap_content"
+      android:text="Войти"
+      android:layout_marginRight="10dp"
+      />
+  
+   <Button 
+       android:layout_width="140dp"
+        android:layout_height="wrap_content"
+      android:text="Регистрация"
+      android:layout_marginLeft="10dp"
+      />
+   </LinearLayout>
+   </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

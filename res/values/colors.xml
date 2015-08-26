@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_background">#fff0a350</color>
+    <color name="list_background_res">#99CCFF</color>
+    <color name="list_background_pressed">#ffb2dcff</color>
+    <color name="drawer_item_color">#ffbd9547</color>
+    <color name="list_divider">#000000</color>
+    <color name="background">#ffe3a94a</color>
+     <color name="actionbar_background">#790000</color>
+    <color name="actionbar_text">#fff</color>
+</resources>
